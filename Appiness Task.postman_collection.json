@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "3b596d1a-69e9-4ad2-9d09-f04f08246e9b",
+		"name": "Appiness Task",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Category List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8443/category",
+					"host": [
+						"localhost"
+					],
+					"port": "8443",
+					"path": [
+						"category"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Product List By Category",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8443/category/5fc3b031e1323b5a68268fd6",
+					"host": [
+						"localhost"
+					],
+					"port": "8443",
+					"path": [
+						"category",
+						"5fc3b031e1323b5a68268fd6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Product List By Category Id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8443/category/5fc3b031e1323b5a68268fd6",
+					"host": [
+						"localhost"
+					],
+					"port": "8443",
+					"path": [
+						"category",
+						"5fc3b031e1323b5a68268fd6"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
